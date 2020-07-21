@@ -1,0 +1,10 @@
+{
+    "editor.formatOnSave": true,
+    "files.autoSave": "onFocusChange",
+    "files.exclude": {
+        "**/.git": true,
+        "target": true
+    },
+    "rust-analyzer.updates.askBeforeDownload": false,
+    "rust-analyzer.updates.channel": "nightly"
+}
