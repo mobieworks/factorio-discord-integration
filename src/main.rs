@@ -11,7 +11,7 @@ fn get_matches<'a>() -> ArgMatches<'a> {
         .author("Dopin Ninja <dopinninja@gmail.com>")
         .about("Sends notifications to a Discord channel")
         .arg(
-            Arg::with_name("console-log")
+            Arg::with_name("console-log-file-path")
                 .short("f")
                 .help("Sets the console log file to use")
                 .takes_value(true)
