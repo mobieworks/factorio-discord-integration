@@ -114,7 +114,7 @@ jobs:
       shell: bash
       run: |
         outdir="$(ci/cargo-out-dir "${{ env.TARGET_DIR }}")"
-        staging="ripgrep-${{ env.RELEASE_VERSION }}-${{ matrix.target }}"
+        staging="factorio-discord-integration-${{ env.RELEASE_VERSION }}-${{ matrix.target }}"
         cp {README.md,LICENSE} "$staging/"
         if [ "${{ matrix.os }}" = "windows-2019" ]; then
           cp "target/${{ matrix.target }}/release/factorio-discord-integration.exe" "$staging/"
